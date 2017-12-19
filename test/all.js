@@ -27,7 +27,7 @@ describe('All', () => {
                 .end((err, res) => {
                     res.should.have.status(200);
                     res.body.should.be.a('array');
-                    res.body.length.should.be.eql(24); // fixme :)
+                    res.body.length.should.be.eql(18); // fixme :)
                     done();
                 });
         });
