@@ -4,7 +4,7 @@ let Tree = require("../model/tree");
 /*
  * GET /pets route to retrieve all the pets.
  */
-let getall = (req, res) => 
+let getall = (req, res) => {
 	var ps;
 	var ts;
     Pet.find((err, pets) => {
